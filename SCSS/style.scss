@@ -618,7 +618,7 @@ body {
 	}
 }
 .reviews {
-	padding: 100px  40px;
+	padding: 100px 40px;
 	&__inner {
 		text-align: center;
 	}
@@ -641,8 +641,6 @@ body {
 		justify-content: space-between;
 		margin: 0 22px;
 	}
-	&__wrapper {
-	}
 	&__text {
 		display: block;
 		height: 84px;
@@ -656,7 +654,6 @@ body {
 		font-style: italic;
 		color: #86878b;
 		letter-spacing: 0.02em;
-
 	}
 	&__text-wrapper {
 		display: flex;
@@ -700,4 +697,115 @@ body {
 		font-weight: 400;
 		color: #86878b;
 	}
+}
+.download {
+	padding: 76px 30px 63px;
+	background-image: url(../img/download_wrap.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+	&__title {
+		margin-bottom: 22px;
+	}
+	&__hr {
+		margin: 0 auto 30px;
+	}
+	&__desc {
+		opacity: 0.8;
+		font-family: Raleway;
+		font-size: 16px;
+		line-height: 1.2;
+		font-weight: 300;
+		color: #ffffff;
+		margin-bottom: 34px;
+	}
+	&__link {
+		margin: 0 auto;
+	}
+}
+.contact {
+	margin: 107px 30px 80px;
+	text-align: center;
+	&__title {
+		color: #212121;
+	}
+	&__hr {
+		margin: 0 auto 30px;
+	}
+	&__desc {
+		line-height: 20px;
+		font-weight: 400;
+		color: #86878b;
+		margin-bottom: 80px;
+	}
+	&__form {
+	}
+	&__inputs {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		margin-bottom: 43px;
+	}
+	&__form-left {
+		display: flex;
+		flex-direction: column;
+		gap: 36px;
+	}
+	&__input {
+		display: block;
+		width: 527px;
+		height: 31px;
+		border-bottom: 1px #00000027 solid;
+		line-height: 1.2;
+		font-weight: 400;
+		&::placeholder {
+			color: #bdbdbd;
+		}
+		&:focus::placeholder {
+			color: transparent;
+		}
+	}
+	&__input-name {
+	}
+	&__input-email {
+	}
+	&__input-subject {
+	}
+	&__input-message {
+		height: inherit;
+		padding: 4px 0 0;
+		resize: none;
+	}
+	&__button {
+		max-width: inherit;
+		margin: 0 auto;
+		padding: 13px 23px;
+	}
+}
+.footer {
+	background-color: black;
+	width: 100%;
+	text-align: center;
+	padding: 20px 20px 16px;
+&__links {
+display: flex;
+justify-content: space-between;
+max-width: 318px;
+margin: 0 auto 6px;
+}
+&__icon {
+	font-size: 24px;
+	line-height: 1.2;
+	font-weight: 400;
+	color: #cccccc;
+}
+&__span {
+opacity: 0.5;
+font-family: 'Open Sans';
+font-size: 12px;
+line-height: 1.2;
+font-weight: 400;
+color: #ffffff;
+}
 }

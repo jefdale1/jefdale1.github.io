@@ -727,4 +727,122 @@ body {
   line-height: 1.2;
   font-weight: 400;
   color: #86878b;
+}
+
+.download {
+  padding: 76px 30px 63px;
+  background-image: url(../img/download_wrap.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+}
+.download__title {
+  margin-bottom: 22px;
+}
+.download__hr {
+  margin: 0 auto 30px;
+}
+.download__desc {
+  opacity: 0.8;
+  font-family: Raleway;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #ffffff;
+  margin-bottom: 34px;
+}
+.download__link {
+  margin: 0 auto;
+}
+
+.contact {
+  margin: 107px 30px 80px;
+  text-align: center;
+}
+.contact__title {
+  color: #212121;
+}
+.contact__hr {
+  margin: 0 auto 30px;
+}
+.contact__desc {
+  line-height: 20px;
+  font-weight: 400;
+  color: #86878b;
+  margin-bottom: 80px;
+}
+.contact__inputs {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 43px;
+}
+.contact__form-left {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+.contact__input {
+  display: block;
+  width: 527px;
+  height: 31px;
+  border-bottom: 1px rgba(0, 0, 0, 0.1529411765) solid;
+  line-height: 1.2;
+  font-weight: 400;
+}
+.contact__input::-moz-placeholder {
+  color: #bdbdbd;
+}
+.contact__input:-ms-input-placeholder {
+  color: #bdbdbd;
+}
+.contact__input::placeholder {
+  color: #bdbdbd;
+}
+.contact__input:focus::-moz-placeholder {
+  color: transparent;
+}
+.contact__input:focus:-ms-input-placeholder {
+  color: transparent;
+}
+.contact__input:focus::placeholder {
+  color: transparent;
+}
+.contact__input-message {
+  height: inherit;
+  padding: 4px 0 0;
+  resize: none;
+}
+.contact__button {
+  max-width: inherit;
+  margin: 0 auto;
+  padding: 13px 23px;
+}
+
+.footer {
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  padding: 20px 20px 16px;
+}
+.footer__links {
+  display: flex;
+  justify-content: space-between;
+  max-width: 318px;
+  margin: 0 auto 6px;
+}
+.footer__icon {
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #cccccc;
+}
+.footer__span {
+  opacity: 0.5;
+  font-family: "Open Sans";
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ffffff;
 }/*# sourceMappingURL=style.css.map */
