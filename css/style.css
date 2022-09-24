@@ -110,6 +110,11 @@ body {
   background: black;
   width: 100%;
   padding: 0 30px;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  top: 0;
 }
 .header__inner {
   display: flex;
@@ -155,7 +160,7 @@ body {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 16vh 64px 28vh;
+  padding: 23vh 64px 28vh;
 }
 .main__text {
   max-width: 520px;
