@@ -1,7 +1,7 @@
 console.log(1)
 var lastId;
 var topMenu = $("#top-menu");
-var topMenuHeight = topMenu.outerHeight()+10; //цифра это расстояние от верхушки меню до нужной секции(можно менять)
+var topMenuHeight = topMenu.outerHeight()+11; //цифра это расстояние от верхушки меню до нужной секции(можно менять)
 var menuItems = topMenu.find("a");
     // Anchors corresponding to menu items
 var scrollItems = menuItems.map(function(){

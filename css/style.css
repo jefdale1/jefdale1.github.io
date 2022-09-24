@@ -106,6 +106,10 @@ body {
   color: #86878b;
 }
 
+.active {
+  border-bottom: 2px #ff8b38 solid;
+}
+
 .header {
   background: black;
   width: 100%;
@@ -133,10 +137,11 @@ body {
 }
 .header__nav {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
+  min-width: 443px;
 }
 .header__item {
-  padding: 10px;
+  padding-bottom: 7px;
 }
 .header__link {
   opacity: 0.69;
@@ -146,13 +151,12 @@ body {
   color: #ffffff;
   padding-top: 26px;
   padding-bottom: 26px;
-  padding-left: 26px;
 }
 .header__link:not(:last-child) {
   padding-right: 26px;
 }
 .header__link:hover {
-  color: yellow;
+  color: #ff8b38;
 }
 
 .main {

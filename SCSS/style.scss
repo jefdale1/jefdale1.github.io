@@ -89,7 +89,9 @@ body {
 	font-weight: 400;
 	color: #86878b;
 }
-
+.active {
+	border-bottom: 2px #ff8b38 solid;
+}
 .header {
 	background: black;
 	width: 100%;
@@ -116,26 +118,25 @@ body {
 	}
 	&__nav {
 		display: flex;
-		flex-direction: row;
+		justify-content: space-between;
+		min-width: 443px;
 	}
 	&__item {
-		padding: 10px;
+		padding-bottom: 7px;
 	}
 	&__link {
 		opacity: 0.69;
-
 		font-size: 14px;
 		line-height: 1.2;
 		font-weight: 600;
 		color: #ffffff;
 		padding-top: 26px;
 		padding-bottom: 26px;
-		padding-left: 26px;
 		&:not(:last-child) {
 			padding-right: 26px;
 		}
 		&:hover {
-			color: yellow;
+			color: #ff8b38;
 		}
 	}
 }
@@ -744,8 +745,6 @@ body {
 		color: #86878b;
 		margin-bottom: 80px;
 	}
-	&__form {
-	}
 	&__inputs {
 		display: flex;
 		justify-content: space-between;
@@ -771,12 +770,6 @@ body {
 			color: transparent;
 		}
 	}
-	&__input-name {
-	}
-	&__input-email {
-	}
-	&__input-subject {
-	}
 	&__input-message {
 		height: inherit;
 		padding: 4px 0 0;
@@ -793,24 +786,24 @@ body {
 	width: 100%;
 	text-align: center;
 	padding: 20px 20px 16px;
-&__links {
-display: flex;
-justify-content: space-between;
-max-width: 318px;
-margin: 0 auto 6px;
-}
-&__icon {
-	font-size: 24px;
-	line-height: 1.2;
-	font-weight: 400;
-	color: #cccccc;
-}
-&__span {
-opacity: 0.5;
-font-family: 'Open Sans';
-font-size: 12px;
-line-height: 1.2;
-font-weight: 400;
-color: #ffffff;
-}
+	&__links {
+		display: flex;
+		justify-content: space-between;
+		max-width: 318px;
+		margin: 0 auto 6px;
+	}
+	&__icon {
+		font-size: 24px;
+		line-height: 1.2;
+		font-weight: 400;
+		color: #cccccc;
+	}
+	&__span {
+		opacity: 0.5;
+		font-family: "Open Sans";
+		font-size: 12px;
+		line-height: 1.2;
+		font-weight: 400;
+		color: #ffffff;
+	}
 }
