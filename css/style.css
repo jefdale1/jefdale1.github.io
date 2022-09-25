@@ -206,6 +206,11 @@ body {
   font-size: 15px;
   line-height: 1.2;
   font-weight: 600;
+  background-color: transparent;
+  transition: 0.15s ease-in;
+}
+.main__link:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .main__inner {
   display: flex;
@@ -282,6 +287,10 @@ body {
   color: #ffffff;
   background: #ff8b38;
   border-radius: 3px;
+  transition: 0.15s ease-in;
+}
+.main__banner-button:hover {
+  background: rgba(255, 155, 81, 0.9);
 }
 
 .social {
@@ -311,6 +320,10 @@ body {
 .social__icon {
   font-size: 46px;
   color: #cccccc;
+  transition: 0.15s ease-in;
+}
+.social__icon:hover {
+  color: #999999;
 }
 
 .features {
@@ -846,6 +859,10 @@ body {
   line-height: 1.2;
   font-weight: 400;
   color: #cccccc;
+  transition: 0.15s ease-in;
+}
+.footer__icon:hover {
+  color: #999999;
 }
 .footer__span {
   opacity: 0.5;
